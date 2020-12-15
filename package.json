@@ -1,10 +1,13 @@
 {
   "name": "parse-line",
   "version": "1.0.0",
-  "description": "Simple & lighweight line parser to extract command line ",
+  "description": "Simple & lightweight line parser to extract command line ",
   "main": "dist/index.js",
+  "files": [
+    "dist/**"
+  ],
   "scripts": {
-    "test": "jest"
+    "test": "mocha -r ts-node/register \"test/**/*.test.ts\""
   },
   "repository": {
     "type": "git",
@@ -22,9 +25,12 @@
   },
   "homepage": "https://github.com/0xWaleed/parse-line#readme",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
   },
-  "dependencies": {
-    "@types/jest": "^26.0.19"
-  }
+  "dependencies": {}
 }
