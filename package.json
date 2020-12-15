@@ -1,0 +1,24 @@
+{
+  "name": "parse-line",
+  "version": "1.0.0",
+  "description": "Simple & lighweight line parser to extract command line ",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xWaleed/parse-line.git"
+  },
+  "keywords": [
+    "command",
+    "line",
+    "parse"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/0xWaleed/parse-line/issues"
+  },
+  "homepage": "https://github.com/0xWaleed/parse-line#readme"
+}
