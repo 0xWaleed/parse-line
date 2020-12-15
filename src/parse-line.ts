@@ -1,10 +1,10 @@
 
-interface LineParseOptions
+interface ParseLineOptions
 {
     splitter?(line: string): string[];
 }
 
-export function parseLine(line: string, options?: LineParseOptions)
+export function parseLine(line: string, options?: ParseLineOptions)
 {
     if (options?.splitter) {
         return options.splitter(line);
