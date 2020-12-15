@@ -1,6 +1,6 @@
 {
   "name": "parse-line",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple & lightweight line parser to extract command line ",
   "main": "dist/index.js",
   "files": [

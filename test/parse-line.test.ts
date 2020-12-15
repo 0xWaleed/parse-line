@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import {parseLine} from '../src';
+import {parseLine, ParseLineOptions} from '../src';
 
 
 describe('parse-line', () =>
@@ -23,11 +23,12 @@ describe('parse-line', () =>
 
     it('should able to split a line by given function', () =>
     {
-        expect(parseLine('hello, world', {
+        let options: ParseLineOptions = {
             splitter: (line: string) : string[]=> {
                 return line.split(', ')
             }
-        })).to.deep.equals(['hello', 'world']);
+        };
+        expect(parseLine('hello, world', options)).to.deep.equals(['hello', 'world']);
     });
 
     it('expects quoted string to be one value', () =>

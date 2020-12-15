@@ -1,5 +1,5 @@
 
-interface ParseLineOptions
+export interface ParseLineOptions
 {
     splitter?(line: string): string[];
 }
