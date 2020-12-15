@@ -69,6 +69,7 @@
   },
   "exclude": [
     "node_modules",
-    "test"
+    "test",
+    "dist"
   ]
 }
