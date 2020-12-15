@@ -4,8 +4,7 @@
 
 ## What 
 
-Simple package to
-explode a line based on a condition.
+Simple package to explode a line.
 
 
 
@@ -17,9 +16,11 @@ Usually, I build a command-line app, and I need to parse the input to extract th
 
 ## Installation
 
-`npm install parse-line`
-or
+`npm install parse-line`  
+or  
 `yarn add parse-line`
+
+
 
 
 ## Example
